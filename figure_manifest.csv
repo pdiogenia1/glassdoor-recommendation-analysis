@@ -1,0 +1,24 @@
+filename,section,paper_use,description
+figure1_class_balance.png,EDA,Main paper Figure 1,Distribution of the binary recommendation target.
+figure2_logistic_coefficients.png,Model interpretation,Main paper Figure 2,Standardized logistic-regression coefficients for the main structured-feature model.
+figure3_rf_importance.png,Model interpretation,Main paper Figure 3,Random-forest feature importances for the main structured-feature model.
+figure4_correlation_heatmap.png,Shared-variance analysis,Main paper Figure 4,Correlation heatmap for structured workplace rating variables.
+figure5_roc_curves.png,Main model evaluation,Main paper Figure 5,"Combined ROC curves for the dummy, logistic-regression, and random-forest models."
+figure6_confusion_matrix.png,Main model evaluation,Main paper Figure 6,Confusion matrix for the primary logistic-regression model.
+figure7_cons_phrases.png,TF-IDF text analysis,Main paper Figure 7,Top cons-text phrases associated with positive and negative recommendation outcomes.
+figure8_firm_heterogeneity.png,Firm-level heterogeneity extension,Main paper Figure 8,Firm-level variation in the multilevel cons-sentiment slope.
+appendix_confusion_matrix_dummy.png,Appendix diagnostics,Appendix,Standalone confusion matrix for the dummy classifier.
+appendix_confusion_matrix_logistic_regression.png,Appendix diagnostics,Appendix,Standalone confusion matrix for logistic regression.
+appendix_confusion_matrix_random_forest.png,Appendix diagnostics,Appendix,Standalone confusion matrix for random forest.
+appendix_roc_curve_dummy.png,Appendix diagnostics,Appendix,Standalone ROC curve for the dummy classifier.
+appendix_roc_curve_logistic_regression.png,Appendix diagnostics,Appendix,Standalone ROC curve for logistic regression.
+appendix_roc_curve_random_forest.png,Appendix diagnostics,Appendix,Standalone ROC curve for random forest.
+appendix_learning_curve_logistic_regression.png,Appendix diagnostics,Appendix,Learning curve for logistic regression using ROC-AUC.
+appendix_learning_curve_random_forest.png,Appendix diagnostics,Appendix,Learning curve for random forest using ROC-AUC.
+appendix_heterogeneity_fe_slopes_exploratory.png,Firm-level heterogeneity extension,Appendix / exploratory,Exploratory fixed-effects firm-specific cons-sentiment slopes.
+appendix_fe_vs_mlm_scatter.png,Firm-level heterogeneity extension,Appendix,Scatterplot comparing firm-specific slopes from the fixed-effects interaction and multilevel models.
+appendix_heterogeneity_scatter_all_labels_exploratory.png,Firm-level heterogeneity extension,Appendix / exploratory,Fully labeled exploratory scatterplot comparing fixed-effects and multilevel firm slopes.
+appendix_heterogeneity_scatter_extreme_labels_exploratory.png,Firm-level heterogeneity extension,Appendix / exploratory,Exploratory scatterplot labeling only firms with extreme multilevel slopes.
+appendix_heterogeneity_mlm_slopes_mean_line_exploratory.png,Firm-level heterogeneity extension,Appendix / exploratory,Exploratory multilevel slope bar chart with mean-slope reference line.
+appendixD_calibration_plot.png,Appendix diagnostics,Appendix D,Calibration plot for the one-factor plus sentiment logistic model.
+appendix_precision_recall_curve.png,Appendix diagnostics,Appendix,Precision-recall curve for the one-factor plus sentiment logistic model.
