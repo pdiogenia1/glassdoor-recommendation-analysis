@@ -9,6 +9,9 @@ This repository contains the reproducible Python script for the BCIS 566 final p
 | `BCIS_566_Final_Project.py` | Main reproducible Python script for submission |
 | `README.md` | Project overview and run instructions |
 
+**Dataset:** David Gauthier, Glassdoor Job Reviews, Kaggle:
+https://www.kaggle.com/datasets/davidgauthier/glassdoor-job-reviews
+
 ## Setup
 
 Install the required Python packages:
