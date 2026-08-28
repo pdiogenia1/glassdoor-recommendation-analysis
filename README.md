@@ -1,12 +1,12 @@
-# BCIS 566 Final Project
+# Glassdoor Employee Voice Project
 
-This repository contains the reproducible Python script for the BCIS 566 final project analysis of Glassdoor employee reviews. The script builds a recommendation target, evaluates predictive models, saves paper-ready figures, exports result tables, and includes a firm-level heterogeneity extension using both fixed-effects interaction and multilevel logistic models.
+This repository contains the reproducible Python script for the final project analysis of Glassdoor employee reviews. The script builds a recommendation target, evaluates predictive models, saves paper-ready figures, exports result tables, and includes a firm-level heterogeneity extension using both fixed-effects interaction and multilevel logistic models.
 
 ## Files
 
 | File | Purpose |
 |---|---|
-| `BCIS_566_Final_Project.py` | Main reproducible Python script for submission |
+| `Glassdoor_Final_Project.py` | Main reproducible Python script |
 | `README.md` | Project overview and run instructions |
 
 **Dataset:** David Gauthier, Glassdoor Job Reviews, Kaggle:
@@ -25,7 +25,7 @@ The script expects the Glassdoor review dataset to contain the columns used in t
 ## Run locally
 
 ```bash
-python BCIS_566_Final_Project.py \
+python Glassdoor_Final_Project.py \
   --data-path /path/to/glassdoor_reviews.csv \
   --output-dir figures \
   --table-dir tables
@@ -34,7 +34,7 @@ python BCIS_566_Final_Project.py \
 ## Run in Google Colab after mounting Drive manually
 
 ```bash
-python BCIS_566_Final_Project.py \
+python Glassdoor_Final_Project.py \
   --data-path "/content/drive/MyDrive/glassdoor_reviews.csv" \
   --output-dir "/content/drive/MyDrive/project_figures" \
   --table-dir "/content/drive/MyDrive/project_tables" \
