@@ -1,20 +1,20 @@
-# File: BCIS_566_Final_Project.py
+# File: Glassdoor_Final_Project.py
 # -*- coding: utf-8 -*-
 """
-BCIS 566 Final Project cleaned submission script.
+Final Glassdoor Project cleaned submission script.
 
 Users running outside Google Colab should either update DATA_PATH below or pass
 --data-path at the command line. Figures are saved to --output-dir, and result
 tables are saved to --table-dir.
 
 Example:
-    python BCIS_566_Final_Project.py \
+    python Glassdoor_Final_Project.py \
         --data-path /path/to/glassdoor_reviews.csv \
         --output-dir figures \
         --table-dir tables
 
 Colab example after mounting Drive manually:
-    python BCIS_566_Final_Project.py \
+    python Glassdoor_Final_Project.py \
         --data-path "/content/drive/MyDrive/glassdoor_reviews.csv" \
         --output-dir "/content/drive/MyDrive/project_figures" \
         --table-dir "/content/drive/MyDrive/project_tables" \
@@ -425,7 +425,7 @@ def zscore(series: pd.Series) -> pd.Series:
 def parse_args() -> argparse.Namespace:
     """Parse command-line options for reproducible local or Colab runs."""
     parser = argparse.ArgumentParser(
-        description="Run the BCIS 566 Glassdoor recommendation analysis.",
+        description="Run the Glassdoor recommendation analysis.",
     )
     parser.add_argument(
         "--data-path",
